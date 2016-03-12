@@ -3,6 +3,8 @@ include ("dbconnect.php");
 $loggedin = false;
 $loggedout = false;
 
+// Hey this is a random comment just to test git
+
 if (isset($_POST['sublogout'])) {
 	setcookie('username','/', time()-3600);
 	setcookie('passhash','/', time()-3600);	
